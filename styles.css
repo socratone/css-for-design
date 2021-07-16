@@ -1,0 +1,61 @@
+.origin {
+  background: gold;
+  width: 200px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.origin:after {
+  font-size: 20px;
+  content: '원본';
+}
+
+.edge-left {
+  background: dodgerblue;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: -100%;
+  top: 0;
+}
+
+.edge-right {
+  background: dodgerblue;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+.edge-top {
+  background: dodgerblue;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+}
+
+.edge-bottom {
+  background: dodgerblue;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
+
+.rotate-origin {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: dodgerblue;
+  transform-origin: top left;
+  transform: rotate(45deg);
+}
