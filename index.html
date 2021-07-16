@@ -5,22 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS for Design</title>
-    <link rel="stylesheet" href="./common/normalize.css" />
-    <link rel="stylesheet" href="./common/global.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h2>부모의 모서리에 붙이는 방법</h2>
+    <p>absolute, %</p>
     <section>
-      <div class="origin"><span class="edge-left"></span></div>
+      <div class="parent"><span class="edge-left"></span></div>
     </section>
     <section>
-      <div class="origin"><span class="edge-right"></span></div>
+      <div class="parent"><span class="edge-right"></span></div>
     </section>
 
     <h2>회전 기준점을 정하는 방법</h2>
+    <p>rotate, transform-origin</p>
+    <section class="mb-120">
+      <div class="parent"><span class="rotate-origin"></span></div>
+    </section>
+
+    <h2>부모의 비율에 맞춰 정렬하는 방법</h2>
+    <p>translate</p>
     <section>
-      <div class="origin"><span class="rotate-origin"></span></div>
+      <div class="parent">
+        <span class="percent percent-25"></span>
+        <span class="percent percent-50"></span>
+        <span class="percent percent-75"></span>
+      </div>
     </section>
   </body>
 </html>

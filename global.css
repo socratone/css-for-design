@@ -11,6 +11,16 @@ h2 {
   z-index: 1;
 }
 
+p {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  color: dimgray;
+}
+
 section {
   margin-bottom: 20px;
+}
+
+.mb-120 {
+  margin-bottom: 120px;
 }
