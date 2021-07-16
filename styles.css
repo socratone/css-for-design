@@ -68,21 +68,27 @@
 
 .percent-25 {
   background: dodgerblue;
+  /* 부모를 기준으로 */
   top: 50%;
   left: 25%;
+  /* 자신을 기준으로 */
   transform: translate(-50%, -50%);
 }
 
 .percent-50 {
   background: deeppink;
+  /* 부모를 기준으로 */
   top: 50%;
   left: 50%;
+  /* 자신을 기준으로 */
   transform: translate(-50%, -50%);
 }
 
 .percent-75 {
   background: green;
+  /* 부모를 기준으로 */
   top: 50%;
   left: 75%;
+  /* 자신을 기준으로 */
   transform: translate(-50%, -50%);
 }
